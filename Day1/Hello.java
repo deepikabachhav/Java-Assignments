@@ -1,3 +1,5 @@
+/* write a program to perform operations using functions */
+
 class Hello{
 	static void display(){
 		System.out.println("disp");
@@ -18,6 +20,7 @@ class Hello{
 		int div= numberOne /numberTwo;
 		return div;
 	}
+
 	public static void main(String[] args){
 		System.out.println("Hello world");
 		display();
@@ -29,5 +32,5 @@ class Hello{
 		System.out.println("The multiplication of two numbers is:" + mul);
 		int div= division(80,16);
 		System.out.println("The division of two numbers is:" + div);
-		}
+	}
 }

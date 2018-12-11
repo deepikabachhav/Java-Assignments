@@ -1,6 +1,9 @@
+/* Write a program to find total marks and average of the students */
+
 import java.util.Scanner;
 class Average{
-	 static int studentsTotal=0;
+	static int studentsTotal=0;
+
 	static int totalMarks(int subjectOne, int subjectTwo,int subjectThree){
 	int totalMark= (subjectOne+ subjectTwo+subjectThree);
 	return totalMark;

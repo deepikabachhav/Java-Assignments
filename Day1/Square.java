@@ -1,3 +1,5 @@
+/* write a program to find multiplicatin table and square of the table */
+
 import java.util.Scanner;
 class Square {
 	public static void main(String[] args) {

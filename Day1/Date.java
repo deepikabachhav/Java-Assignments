@@ -1,3 +1,5 @@
+/* wite a program to convert the date DD/MM/YYYY in the form of DD/month-name/YYYY */
+
 import java.util.Scanner;
 class Date{
 	public static void main(String[] args){

@@ -1,3 +1,8 @@
+/* 4)	Provide  marks of three subject and declare the result, result declaration is based on  below conditions:
+Condition 1: -All subjects marks is greater than 60 is Passed 
+Condition 2: -Any two subjects marks is greater than 60 is Promoted
+Condition 3: -Any one subject marks is greater than 60 or all subjects’ marks less than 60 is failed. */
+
 import java.util.Scanner;
 class Declare_result {
 	public static void main(String[] args) {
