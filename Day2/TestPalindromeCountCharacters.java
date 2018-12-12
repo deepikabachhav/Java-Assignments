@@ -8,9 +8,11 @@ public class TestPalindromeCountCharacters {
 	@Test
 	public void test() {
 		PalindromeString palindrome= new PalindromeString();
-		String[] stringOne= {"deepika","ankita","snehal","aditi","monika"};
-		String result= palindrome.checkpalindrome({"deepika","ankita","snehal","aditi","monika"});
-		
+		String arrayOfStringOne= "deepika,ankita,snehal,aditi,monika,nitin, amma, anna";
+		//String ArrayOfStringTwo="nitin, amma, anna";
+		String resultOne= palindrome.checkpalindrome(arrayOfStringOne);
+		//String resultTwo= palindrome.checkpalindrome(ArrayOfStringTwo);
+	
 	}
 
 }

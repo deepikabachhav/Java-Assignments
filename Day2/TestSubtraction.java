@@ -1,9 +1,12 @@
 /* JUnit Test Case for TestSubtraction */
 
 import static org.junit.Assert.*;
+
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
+@Category(GoodOperationCategory.class)
 public class TestSubtraction {
 
 	private Subtraction subtraction;
