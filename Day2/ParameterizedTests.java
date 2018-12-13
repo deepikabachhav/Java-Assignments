@@ -1,3 +1,5 @@
+/* JUnit parameterized test and class practise */
+
 import java.util.Arrays;
 import java.util.List;
 import org.junit.Test;
@@ -25,9 +27,9 @@ public class ParameterizedTests {
 				{80,50,130},
 				{-80,-50,-130},
 				{80,-50,30}
-		});
+				});
 	}
-	
+	/*
 	@Parameters
 	public static List<Object[]> dataTwo(){
 		return Arrays.asList(new Object[][]{
@@ -38,7 +40,7 @@ public class ParameterizedTests {
 				{0,10,-10}
 				});
 	}
-	
+	*/
 	
 	public ParameterizedTests(int inputOne,int inputTwo, int expected){
 		this.inputOne=inputOne;

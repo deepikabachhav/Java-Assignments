@@ -1,6 +1,6 @@
+/* Take 10 inputs.Identify a Palindrome.Count the chars in it And sort in descending order of chars. */
+
 import java.util.Arrays;
-
-
 public class Palindrome {
 
 	public boolean checkPalindrome(String integer) {

@@ -1,5 +1,6 @@
-import static org.junit.Assert.*;
+/* test case for finding repeated characters from the string */
 
+import static org.junit.Assert.*;
 import org.junit.Test;
 public class TestReapeatCharacters {
 	

@@ -1,5 +1,6 @@
-import static org.junit.Assert.*;
+/* Test case for finding occurence of name in the given array of string */
 
+import static org.junit.Assert.*;
 import org.junit.Test;
 public class TestOccurenceOfName {
 

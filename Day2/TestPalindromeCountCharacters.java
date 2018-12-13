@@ -1,8 +1,7 @@
+/* Test case for count charactrs from palindrome and keep it in descending order */
+
 import static org.junit.Assert.*;
-
 import org.junit.Test;
-
-
 public class TestPalindromeCountCharacters {
 
 	@Test

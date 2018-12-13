@@ -1,8 +1,7 @@
+/* Test class for check absolute difference between the indices */ 
+
 import static org.junit.Assert.*;
-
 import org.junit.Test;
-
-
 public class TestAbsoluteDifference {
 
 	@Test

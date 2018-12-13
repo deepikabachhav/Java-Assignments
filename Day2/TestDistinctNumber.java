@@ -1,9 +1,8 @@
-import static org.junit.Assert.*;
+/* Test class for finding missing number in the array of integers */
 
+import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
-
-
 public class TestDistinctNumber {
 	private static DistinctNumber distinctNumber;
 	

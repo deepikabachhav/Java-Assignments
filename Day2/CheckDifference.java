@@ -1,3 +1,5 @@
+/* iven an array of integers and an integer k, find out whether there are two distinct indices i and j in the 
+array such that nums[i] = nums[j] and the absolute difference between i and j is at most k. */
 
 public class CheckDifference {
 
@@ -6,12 +8,10 @@ public class CheckDifference {
 		int difference = 0;
 			for(int count=0; count< length;count++){
 					if(arrayOfIntegers[i]==arrayOfIntegers[j]){
-						difference=j-i;
-						
+						difference=j-i;	
 					}
-			}
-			System.out.println(difference);
-			if(difference<=k){
+			}  
+			if(difference<=k){         //check whether the difference is same as k or not.    
 				return true;
 			}
 			else{
