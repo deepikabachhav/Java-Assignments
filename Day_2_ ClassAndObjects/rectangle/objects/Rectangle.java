@@ -9,6 +9,7 @@ public class Rectangle {
 		this.length=length;
 		this.breadth=breadth;
 	}
+	
 	public double getArea() {						// to find area of rectangle
 		if(length <0 || breadth <0){
 			return 0.0;
