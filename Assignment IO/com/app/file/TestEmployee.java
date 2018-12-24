@@ -1,13 +1,14 @@
 package com.app.file;
-
 import static org.junit.Assert.*;
-
 import java.io.IOException;
-
 import org.junit.Before;
 import org.junit.Test;
-
-public class TestSerializationAndDeserialization {
+/**
+ * 
+ * @author dbachhav
+ *Test class for read and write in a file.
+ */
+public class TestEmployee {
 	private Employee employee;
 	
 	@Before

@@ -4,12 +4,21 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author dbachhav
+ *MyClass is a class which implements serializable and read and write data in the file.
+ */
 public class MyClass implements Serializable {
 	private int rollNumber;
 	private String name;
 
 	public int getRollNumber() {
 		return rollNumber;
+	}
+
+	@Override
+	public String toString() {
+		return "MyClass [rollNumber=" + rollNumber + ", name=" + name + "]";
 	}
 
 	public String getName() {
@@ -21,15 +30,4 @@ public class MyClass implements Serializable {
 		this.rollNumber = rollNumber;
 		this.name = name;
 	}
-
-	/*public List<String> student() {
-		List<String> student = new ArrayList<String>();
-		student.add("studentOne");
-		student.add("studentTwo");
-		student.add("studentThree");
-		student.add("studentFour");
-		student.add("studentFive");
-		return student;
-	}*/
-
 }

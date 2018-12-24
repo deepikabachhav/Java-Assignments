@@ -7,7 +7,10 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-
+/**
+ * @author dbachhav
+ *EmployeeWriteReadFile is a class which contains methods to read and write the file.
+ */
 public class EmployeeWriteReadFile {
 	
 	public void EmployeeWrite(Employee employee, String path) throws IOException{

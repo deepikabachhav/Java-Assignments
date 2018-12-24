@@ -1,16 +1,17 @@
 package com.app.file;
-
 import static org.junit.Assert.*;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
-
 import org.junit.Test;
-
+/**
+ * 
+ * @author dbachhav
+ *Test class -TestForFileExist ,TestForLineCountInFile, TestForWordCountInFile, TestForWordCountInFile, TestForJavaGrepApplication.
+ */
 public class TestFileExists {
 
 	@Test

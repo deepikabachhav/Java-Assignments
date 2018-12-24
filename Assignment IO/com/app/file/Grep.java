@@ -6,6 +6,10 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/**
+ * @author dbachhav
+ *Grep is a class to find that  the given  String is present on which line number and the line.
+ */
 public class Grep {
 
 	public String getLineNumberAndLine(String string, String path) throws IOException  {
@@ -27,7 +31,7 @@ public class Grep {
 	                }
 	            }
 		 		return "" +arrayofnumber+ ""+arrayList;	
-	}
+		}
 }
 
 
