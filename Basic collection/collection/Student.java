@@ -3,7 +3,10 @@ package com.collection;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
-
+/**
+ * @author dbachhav
+ *Student is a class implements the methods for getting key only,getting value only, getting map.
+ */
 public class Student {
 	public void getMap(Map <String,String> map){
 		Set<Entry<String,String>> student=map.entrySet();

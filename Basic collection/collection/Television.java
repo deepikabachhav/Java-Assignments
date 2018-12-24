@@ -1,5 +1,8 @@
 package com.collection;
-
+/**
+ * @author dbachhav
+ *Television is a class which overrides hashcode(), equals(), toString() methods.
+ */
 public class Television {
 	private String company;
 	private String type;

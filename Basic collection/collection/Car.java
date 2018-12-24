@@ -1,5 +1,9 @@
 package com.collection;
-
+/**
+ * 
+ * @author dbachhav
+ * Car is a class overrides hashcode(), equals() ,toString() methods.
+ */
 public class Car {
 	private String make;
 	private String model;

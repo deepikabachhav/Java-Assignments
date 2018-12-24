@@ -6,6 +6,11 @@ import java.util.TreeSet;
 import static org.junit.Assert.*;
 import java.util.List;
 import org.junit.Test;
+
+/**
+ * @author dbachhav
+ *test class for sorting in natural order .
+ */
 public class TestStudents {
 
 	@Test

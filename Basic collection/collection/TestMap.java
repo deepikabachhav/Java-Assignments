@@ -1,14 +1,13 @@
 package com.collection;
 import java.util.HashMap;
 import java.util.Set;
-
 import static org.junit.Assert.*;
-
 import org.junit.Test;
-
 import java.util.Map;
 public class TestMap {
-
+/**
+ * Test class for testing map.
+ */
 	@Test
 	public void TestMap() {
 		Student student =new Student();

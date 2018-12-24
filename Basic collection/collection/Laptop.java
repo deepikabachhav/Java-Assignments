@@ -1,5 +1,8 @@
 package com.collection;
-
+/**
+ * @author dbachhav
+ *Laptop is a class which overrides hashcode(), equals(), toString() methods.
+ */
 public class Laptop {
 	private String company;
 	private int model;

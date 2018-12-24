@@ -1,5 +1,8 @@
 package com.collection;
-
+/** 
+ * @author dbachhav
+ *CarOne class implements comparable  which override compareTo() method depends on the make year of the car.
+ */
 public class CarOne implements Comparable {
 	private String make;
 	private String model;

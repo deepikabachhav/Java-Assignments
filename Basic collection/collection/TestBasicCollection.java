@@ -3,8 +3,11 @@ import static org.junit.Assert.*;
 import java.util.HashSet;
 import java.util.Set;
 import org.junit.Test;
-
-	public class TestBasicCollection {
+/**
+ * @author dbachhav
+ *TestBasicCollection is a TestClass for TestLaptop,TestTelevision, TestCellPhone, TestCar, TestSchool.
+ */
+public class TestBasicCollection {
 
 		@Test
 		public void TestLaptop() {
@@ -12,10 +15,8 @@ import org.junit.Test;
 			set.add(new Laptop("hp",120,"windows","64-bit"));
 			set.add(new Laptop("Dell",120,"Unix","32-bit"));
 			set.add(new Laptop("Apple",120,"Mac","128-bit"));
-			/*for(Laptop laptop: set)
-			{ System.out.println(laptop);}
-			//set.toString();
-*/		}
+			set.toString();		
+		}
 		
 		@Test
 		public void TestTelevision() {
@@ -23,7 +24,7 @@ import org.junit.Test;
 			set.add(new Television("Sony","LED",false,70000));
 			set.add(new Television("LG","LCD",false,65000));
 			set.add(new Television("Samsung","Plasma",true,100000));
-			//System.out.println(set.toString());
+			set.toString();
 		}
 		
 		@Test

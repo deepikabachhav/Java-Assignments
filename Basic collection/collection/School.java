@@ -1,5 +1,8 @@
 package com.collection;
-
+/**
+ * @author dbachhav
+ *School is a class which overrides hashcode(), equals(), toString() methods.
+ */
 public class School {
 	private String name;
 	private String city;

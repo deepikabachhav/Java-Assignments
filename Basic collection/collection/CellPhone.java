@@ -1,5 +1,8 @@
 package com.collection;
-
+/**
+ * @author dbachhav
+ *CellPhone is a class which overrides hashcode(), equals(), toString() methods.
+ */
 public class CellPhone {
 	private String company;
 	private String model;
