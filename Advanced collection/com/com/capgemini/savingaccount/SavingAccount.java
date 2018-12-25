@@ -2,14 +2,15 @@
 a.	Create 5 different object of SavingAccount and add them into ArrayList, now interate the arraylist and display all SavingAccount’s object one by one.
 b.	Now save the ArrayList which contains SavingAccount’s object into a file and read the file and display all savingAccount Object one by one.
 c.	Create class BankAccountList which will maintain SavingAccount objects. Ensure that this class should not allow duplicates as well as data should be displayed in sorted order. (as per acc_ID)  
-*/
+ */
 
-package com.advancedcollection;
+package com.capgemini.savingaccount;
+
 import java.io.Serializable;
 
 /**
- * @author dbachhav 
- * SavingAccount is a class which implements serializable and comparable and override compareTo() method.
+ * @author dbachhav SavingAccount is a class which implements serializable and
+ *         comparable and override compareTo() method.
  */
 public class SavingAccount implements Serializable, Comparable {
 	private String accountHolderName;
@@ -56,7 +57,7 @@ public class SavingAccount implements Serializable, Comparable {
 	 * @return
 	 */
 	public double withdraw(double amount) {
-		if ( amount <= this.getAccountBalance()) {
+		if (amount <= this.getAccountBalance()) {
 			return this.accountBalance -= amount;
 		} else
 			return 0;
