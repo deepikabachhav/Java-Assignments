@@ -35,31 +35,31 @@ public class TestMovieDetails {
 		
 	}
 	@Test
-	public void TestForAddMovie() {
+	public void testForAddMovie() {
 		boolean yesAdd=movie.addMovie(movieOne);
 		assertEquals(true,yesAdd);
 	}
 	
 	@Test
-	public void TestForRemoveMovie() {
+	public void testForRemoveMovie() {
 		boolean yesRemove=movie.removeMovie(movieOne);
 		assertEquals(false,yesRemove);
 	}
 
 	@Test
-	public void TestForRemoveAllMovie() {
+	public void testForRemoveAllMovie() {
 		boolean yesRemove=movie.removeAll(movieOne);
 		assertEquals(false,yesRemove);
 	}
 	
 	@Test
-	public void TestForAddMovieone() {
+	public void testForAddMovieone() {
 		boolean yesAdd=movie.addMovie(movieOne);
 		assertEquals(true,yesAdd);
 	}
 	
 	@Test
-	public void TestForFindMovieByMovieName() {
+	public void testForFindMovieByMovieName() {
 		movie.addMovie(movieOne);
 		movie.addMovie(movieTwo);
 		movie.addMovie(movieThree);
@@ -68,7 +68,7 @@ public class TestMovieDetails {
 	}
 	
 	@Test
-	public void TestForFindMovieByGenre() {
+	public void testForFindMovieByGenre() {
 		movie.addMovie(movieOne);
 		movie.addMovie(movieTwo);
 		movie.addMovie(movieThree);
@@ -77,7 +77,7 @@ public class TestMovieDetails {
 	}
 	
 	@Test
-	public void TestForSortingOnMovieName(){
+	public void testForSortingOnMovieName(){
 		movie.addMovie(movieOne);
 		movie.addMovie(movieTwo);
 		movie.addMovie(movieThree);
@@ -87,7 +87,7 @@ public class TestMovieDetails {
 	}
 	
 	@Test
-	public void TestForSortingOnLeadActor(){
+	public void testForSortingOnLeadActor(){
 		movie.addMovie(movieOne);
 		movie.addMovie(movieTwo);
 		movie.addMovie(movieThree);
@@ -97,7 +97,7 @@ public class TestMovieDetails {
 	}
 	
 	@Test
-	public void TestForSortingOnLeadActress(){
+	public void testForSortingOnLeadActress(){
 		movie.addMovie(movieOne);
 		movie.addMovie(movieTwo);
 		movie.addMovie(movieThree);
@@ -107,7 +107,7 @@ public class TestMovieDetails {
 	}
 	
 	@Test
-	public void TestForSortingOnMovieGenre(){
+	public void testForSortingOnMovieGenre(){
 		movie.addMovie(movieOne);
 		movie.addMovie(movieTwo);
 		movie.addMovie(movieThree);

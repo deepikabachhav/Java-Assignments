@@ -12,7 +12,7 @@ import org.junit.Test;
 public class TestForReadFile {
 
 	@Test
-	public void TestForReadFile() {
+	public void testForReadFile() {
 		List<SavingAccount> list = new ArrayList<SavingAccount>();
 		SavingAccountWriteReadFile readwritefile = new SavingAccountWriteReadFile();
 		String path = "C:\\FileInputOutput\\SavingAccount.txt";

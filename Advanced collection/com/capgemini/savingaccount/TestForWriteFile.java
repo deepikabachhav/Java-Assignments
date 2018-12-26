@@ -12,7 +12,7 @@ import org.junit.Test;
 public class TestForWriteFile {
 
 	@Test
-	public void TestForWriteFile() {
+	public void testForWriteFile() {
 		List<SavingAccount> list = new ArrayList<SavingAccount>();
 		list.add(new SavingAccount("Deepika", 10000, 101, true));
 		list.add(new SavingAccount("Ankita", 9000, 102, true));
